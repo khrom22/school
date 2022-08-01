@@ -45,6 +45,7 @@ p {
     display:flex;
     justify-content: space-around;
     background-color: gold;
+    margin-bottom: 10px;
     /* gap: 25px; */
 }
 .nav-list-item{
@@ -53,4 +54,25 @@ p {
 .nav-link{
     display: block;
     padding: 20px;
+}
+.hero{
+    max-width: 100%;
+    height: 470px;
+    background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img1.jpg);
+background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.hero-title{
+    width: auto;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+color: #fff;
+padding: 25px;
+}
+.section{
+    padding: 15px;
 }
