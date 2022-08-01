@@ -1,19 +1,56 @@
-
-.logo{
-font-family: roboto, sans-serif;
+body{
+    background-color: aquamarine;
 }
-.list-item{
-    font-family: roboto, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
-
-.list{
-    display: flex;
-    gap: 10px;
-    margin-left: auto;
-}
-a{
+.link{
     text-decoration: none;
 }
-ul{
+
+.container{
+    width: 1200px;
     
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.logo{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-around;
+     background-color: beige;
+     padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+
+}
+.header-logo{
+    width: 450px;
+    text-align:center;
+}
+.list{
+    list-style: none;
+    margin: 0;
+}
+.nav-list{
+    max-width: 1200px;
+    display:flex;
+    justify-content: space-around;
+    background-color: gold;
+    /* gap: 25px; */
+}
+.nav-list-item{
+    font-size: 25px;  
+}
+.nav-link{
+    display: block;
+    padding: 20px;
 }
