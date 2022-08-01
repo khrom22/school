@@ -1,0 +1,19 @@
+
+.logo{
+font-family: roboto, sans-serif;
+}
+.list-item{
+    font-family: roboto, sans-serif;
+}
+
+.list{
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    
+}
